@@ -1,6 +1,6 @@
 import React from "react";
 import * as ReactIs from "react-is";
-import mergeAllOf from "json-schema-merge-allof";
+import * as mergeAllOf from "json-schema-merge-allof";
 import fill from "core-js-pure/features/array/fill";
 import union from "lodash/union";
 import jsonpointer from "jsonpointer";
